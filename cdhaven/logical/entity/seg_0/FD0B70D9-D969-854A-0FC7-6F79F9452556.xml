@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD0B70D9-D969-854A-0FC7-6F79F9452556" name="Purchases">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:55:14 UTC</createdTime>
+<ownerDesignName>cdhaven</ownerDesignName>
+<engineerTo>
+<item key="CF9FCC6C-ECA8-DAE9-2857-0561FEEC3C9D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="7A7AA55A-8B35-A858-6A56-7EFCCB468D5C">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:55:18 UTC</createdTime>
+<ownerDesignName>cdhaven</ownerDesignName>
+<engineerTo>
+<item key="CF9FCC6C-ECA8-DAE9-2857-0561FEEC3C9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="purchase_date" id="3D4FE6CB-73C4-3F1D-FAFD-BD6001692542">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:55:48 UTC</createdTime>
+<ownerDesignName>cdhaven</ownerDesignName>
+<engineerTo>
+<item key="CF9FCC6C-ECA8-DAE9-2857-0561FEEC3C9D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="DD7D0842-095A-64CA-FD79-3455622592A7">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:57:03 UTC</createdTime>
+<generatorID>78D8035F-50FA-9C6C-79B3-138C9B3C53D4</generatorID>
+<ownerDesignName>cdhaven</ownerDesignName>
+<engineerTo>
+<item key="CF9FCC6C-ECA8-DAE9-2857-0561FEEC3C9D" value="true"/>
+</engineerTo>
+<referedAttribute>747E9A8A-8195-531F-269D-B0BF8D32FB92</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="4FF6D3A7-3348-B6FC-7F3D-8FA27E93187A">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:57:11 UTC</createdTime>
+<generatorID>617B4026-EEB5-FAF5-5D54-859BE69158C7</generatorID>
+<ownerDesignName>cdhaven</ownerDesignName>
+<engineerTo>
+<item key="CF9FCC6C-ECA8-DAE9-2857-0561FEEC3C9D" value="true"/>
+</engineerTo>
+<referedAttribute>89560078-2369-F0BE-85AB-C0DE429CCBE0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="84CA556C-234D-5808-D1EB-AAE4F81609C2" name="Purchases PK">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:55:24 UTC</createdTime>
+<ownerDesignName>cdhaven</ownerDesignName>
+<engineerTo>
+<item key="CF9FCC6C-ECA8-DAE9-2857-0561FEEC3C9D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7A7AA55A-8B35-A858-6A56-7EFCCB468D5C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

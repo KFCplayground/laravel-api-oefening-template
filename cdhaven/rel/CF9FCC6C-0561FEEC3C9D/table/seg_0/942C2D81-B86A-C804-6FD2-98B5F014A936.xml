@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="942C2D81-B86A-C804-6FD2-98B5F014A936" name="Publishors">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:59:11 UTC</createdTime>
+<generatorID>E82350F1-86B6-1713-4E1D-B9EA35975DA6</generatorID>
+<ownerDesignName>cdhaven</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="5D883835-278E-FB48-1F02-EAA1D5818DD6">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:59:11 UTC</createdTime>
+<generatorID>2C410A67-9930-E7E7-6C91-9F7A0089E315</generatorID>
+<ownerDesignName>cdhaven</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="3B701991-8270-CC35-63D5-2D9D4E91C174">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:59:11 UTC</createdTime>
+<generatorID>1226F641-5EF9-A886-FEEB-B1AB2C76467F</generatorID>
+<ownerDesignName>cdhaven</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="E0A7564A-EC57-F226-0425-594CCA8168CA">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:59:11 UTC</createdTime>
+<generatorID>DC769DAA-4611-77CC-A238-2CC816B97793</generatorID>
+<ownerDesignName>cdhaven</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="676EC2D1-BC02-F428-5A53-134537795A51" name="Publishors_PK">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:59:11 UTC</createdTime>
+<generatorID>3391E7FE-FE37-9C2F-1435-81886367F7DD</generatorID>
+<ownerDesignName>cdhaven</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D883835-278E-FB48-1F02-EAA1D5818DD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

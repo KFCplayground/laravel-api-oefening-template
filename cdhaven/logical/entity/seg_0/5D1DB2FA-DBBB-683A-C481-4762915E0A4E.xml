@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5D1DB2FA-DBBB-683A-C481-4762915E0A4E" name="Games">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:44:37 UTC</createdTime>
+<ownerDesignName>cdhaven</ownerDesignName>
+<engineerTo>
+<item key="CF9FCC6C-ECA8-DAE9-2857-0561FEEC3C9D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="89560078-2369-F0BE-85AB-C0DE429CCBE0">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:46:25 UTC</createdTime>
+<ownerDesignName>cdhaven</ownerDesignName>
+<engineerTo>
+<item key="CF9FCC6C-ECA8-DAE9-2857-0561FEEC3C9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="62481288-4D15-3AFF-AD46-AA97D250F219">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:46:35 UTC</createdTime>
+<ownerDesignName>cdhaven</ownerDesignName>
+<engineerTo>
+<item key="CF9FCC6C-ECA8-DAE9-2857-0561FEEC3C9D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="2A5AED4E-7247-0613-2902-2DF97F93AECB">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:47:02 UTC</createdTime>
+<ownerDesignName>cdhaven</ownerDesignName>
+<engineerTo>
+<item key="CF9FCC6C-ECA8-DAE9-2857-0561FEEC3C9D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="information" id="9D9C778B-510C-B663-110C-38D4F64CA088">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:47:29 UTC</createdTime>
+<ownerDesignName>cdhaven</ownerDesignName>
+<engineerTo>
+<item key="CF9FCC6C-ECA8-DAE9-2857-0561FEEC3C9D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C7DC890E-4856-7EFA-C483-EBC51CB8D3FD" name="Games PK">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:46:33 UTC</createdTime>
+<ownerDesignName>cdhaven</ownerDesignName>
+<engineerTo>
+<item key="CF9FCC6C-ECA8-DAE9-2857-0561FEEC3C9D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>89560078-2369-F0BE-85AB-C0DE429CCBE0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

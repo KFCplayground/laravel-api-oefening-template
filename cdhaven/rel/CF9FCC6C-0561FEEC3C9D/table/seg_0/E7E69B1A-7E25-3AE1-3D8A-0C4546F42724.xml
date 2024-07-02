@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7E69B1A-7E25-3AE1-3D8A-0C4546F42724" name="PublishorOfGame">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:59:11 UTC</createdTime>
+<ownerDesignName>cdhaven</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Publishors_id" id="6744771F-F244-F598-8377-216C4C035EBD">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:59:11 UTC</createdTime>
+<ownerDesignName>cdhaven</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DC59D99-0AA9-5DAA-42A8-F9E09439560C" referredColumn="5D883835-278E-FB48-1F02-EAA1D5818DD6"/>
+</associations>
+</Column>
+<Column name="Games_id" id="5952DDBD-A521-0890-F3FD-1A83325CE64F">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:59:11 UTC</createdTime>
+<ownerDesignName>cdhaven</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E34E217A-CBE6-7234-B9FA-C1F926262A38" referredColumn="F1DE60E9-8CCD-DB00-304C-6B85F8C1AB24"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67E9218C-2B2C-643F-ADD1-5AD13E71E0A5" name="PublishorOfGame_PK">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:59:11 UTC</createdTime>
+<ownerDesignName>cdhaven</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6744771F-F244-F598-8377-216C4C035EBD"/>
+<colUsage columnID="5952DDBD-A521-0890-F3FD-1A83325CE64F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2BD452DB-8FEF-6F49-C843-15272A6178E1" name="PublishorOfGame_Publishors_FK">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:59:11 UTC</createdTime>
+<generatorID>6E48C9DC-6BDD-942C-220B-C264FDC3521C</generatorID>
+<ownerDesignName>cdhaven</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6744771F-F244-F598-8377-216C4C035EBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D034A38F-9AA7-EF3E-2A77-403C0DA4E0FB" name="PublishorOfGame_Games_FK">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:59:11 UTC</createdTime>
+<generatorID>6E48C9DC-6BDD-942C-220B-C264FDC3521C</generatorID>
+<ownerDesignName>cdhaven</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5952DDBD-A521-0890-F3FD-1A83325CE64F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

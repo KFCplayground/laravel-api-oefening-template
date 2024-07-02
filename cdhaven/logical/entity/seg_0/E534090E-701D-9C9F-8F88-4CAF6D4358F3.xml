@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E534090E-701D-9C9F-8F88-4CAF6D4358F3" name="Users">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:53:29 UTC</createdTime>
+<ownerDesignName>cdhaven</ownerDesignName>
+<engineerTo>
+<item key="CF9FCC6C-ECA8-DAE9-2857-0561FEEC3C9D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="747E9A8A-8195-531F-269D-B0BF8D32FB92">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:53:35 UTC</createdTime>
+<ownerDesignName>cdhaven</ownerDesignName>
+<engineerTo>
+<item key="CF9FCC6C-ECA8-DAE9-2857-0561FEEC3C9D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="username" id="390533E3-F5FC-3268-4352-E940CF5CF6FC">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:54:21 UTC</createdTime>
+<ownerDesignName>cdhaven</ownerDesignName>
+<engineerTo>
+<item key="CF9FCC6C-ECA8-DAE9-2857-0561FEEC3C9D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="731E665B-E7DD-1882-E4AB-896932709EFA">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:54:36 UTC</createdTime>
+<ownerDesignName>cdhaven</ownerDesignName>
+<engineerTo>
+<item key="CF9FCC6C-ECA8-DAE9-2857-0561FEEC3C9D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="E3268CB5-A41A-F9A7-C09D-6F8674999B2C">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:54:56 UTC</createdTime>
+<ownerDesignName>cdhaven</ownerDesignName>
+<engineerTo>
+<item key="CF9FCC6C-ECA8-DAE9-2857-0561FEEC3C9D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A54A8A13-26DA-3CEB-6862-8EA68072119D" name="User PK">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:54:10 UTC</createdTime>
+<ownerDesignName>cdhaven</ownerDesignName>
+<engineerTo>
+<item key="CF9FCC6C-ECA8-DAE9-2857-0561FEEC3C9D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>747E9A8A-8195-531F-269D-B0BF8D32FB92</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

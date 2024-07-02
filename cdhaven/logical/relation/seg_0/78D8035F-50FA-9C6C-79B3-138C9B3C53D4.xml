@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Library" directorySegmentName="seg_0" id="78D8035F-50FA-9C6C-79B3-138C9B3C53D4">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:56:19 UTC</createdTime>
+<ownerDesignName>cdhaven</ownerDesignName>
+<engineerTo>
+<item key="CF9FCC6C-ECA8-DAE9-2857-0561FEEC3C9D" value="true"/>
+</engineerTo>
+<sourcePk>84CA556C-234D-5808-D1EB-AAE4F81609C2</sourcePk>
+<targetPk>A54A8A13-26DA-3CEB-6862-8EA68072119D</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>FD0B70D9-D969-854A-0FC7-6F79F9452556</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>E534090E-701D-9C9F-8F88-4CAF6D4358F3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

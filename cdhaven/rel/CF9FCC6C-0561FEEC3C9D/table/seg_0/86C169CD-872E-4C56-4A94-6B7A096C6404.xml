@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86C169CD-872E-4C56-4A94-6B7A096C6404" name="Purchases">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:59:11 UTC</createdTime>
+<generatorID>FD0B70D9-D969-854A-0FC7-6F79F9452556</generatorID>
+<ownerDesignName>cdhaven</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="7FFE1323-7A36-B683-7E5D-F3960BCE1FB6">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:59:11 UTC</createdTime>
+<generatorID>7A7AA55A-8B35-A858-6A56-7EFCCB468D5C</generatorID>
+<ownerDesignName>cdhaven</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="purchase_date" id="99206E22-883C-4C5B-8B66-93C061618FB7">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:59:11 UTC</createdTime>
+<generatorID>3D4FE6CB-73C4-3F1D-FAFD-BD6001692542</generatorID>
+<ownerDesignName>cdhaven</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Users_id" id="978D2D68-7CAA-5B0C-7330-D9D0FCDDC80C">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:59:11 UTC</createdTime>
+<generatorID>DD7D0842-095A-64CA-FD79-3455622592A7</generatorID>
+<ownerDesignName>cdhaven</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F47118AF-0D92-B68A-66BB-9928D4C85598" referredColumn="951F3DE9-4A0C-148E-E1DE-1423BAC81A6B"/>
+</associations>
+</Column>
+<Column name="Games_id" id="DA7FDDD0-F775-686B-BD8B-FD602AC2EF00">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:59:11 UTC</createdTime>
+<generatorID>4FF6D3A7-3348-B6FC-7F3D-8FA27E93187A</generatorID>
+<ownerDesignName>cdhaven</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2D735F8-EC65-18F1-8F18-759828CB68E3" referredColumn="F1DE60E9-8CCD-DB00-304C-6B85F8C1AB24"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E49A58FE-4375-B754-D141-4AF7DEB8B6F3" name="Purchases_PK">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:59:11 UTC</createdTime>
+<generatorID>84CA556C-234D-5808-D1EB-AAE4F81609C2</generatorID>
+<ownerDesignName>cdhaven</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FFE1323-7A36-B683-7E5D-F3960BCE1FB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB4876B8-1EF5-7BA5-6092-E4EBA3115909" name="Purchases_Users_FK">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:59:11 UTC</createdTime>
+<generatorID>78D8035F-50FA-9C6C-79B3-138C9B3C53D4</generatorID>
+<ownerDesignName>cdhaven</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="978D2D68-7CAA-5B0C-7330-D9D0FCDDC80C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E7382F5-771C-C9C2-BCED-F797688FBE53" name="Purchases_Games_FK">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:59:11 UTC</createdTime>
+<generatorID>617B4026-EEB5-FAF5-5D54-859BE69158C7</generatorID>
+<ownerDesignName>cdhaven</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA7FDDD0-F775-686B-BD8B-FD602AC2EF00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

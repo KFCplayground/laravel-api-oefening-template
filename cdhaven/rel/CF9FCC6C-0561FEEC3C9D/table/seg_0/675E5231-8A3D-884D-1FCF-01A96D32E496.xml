@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="675E5231-8A3D-884D-1FCF-01A96D32E496" name="GenreToGame">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:59:11 UTC</createdTime>
+<ownerDesignName>cdhaven</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Genres_id" id="AA3953B0-5A64-0EC0-EC26-6C4A03F9E9E4">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:59:11 UTC</createdTime>
+<ownerDesignName>cdhaven</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F828D4A-A810-5561-294F-86DAC40F8F37" referredColumn="C6BE9FE8-C33D-0D85-1FC6-7D7D3A4CB53A"/>
+</associations>
+</Column>
+<Column name="Games_id" id="40974852-870C-E4BB-5386-988E3DC59288">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:59:11 UTC</createdTime>
+<ownerDesignName>cdhaven</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="932DF35F-E01E-5529-1B3E-F819B34C818B" referredColumn="F1DE60E9-8CCD-DB00-304C-6B85F8C1AB24"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB1C16C0-63AB-2C81-1135-E2730C48E8C4" name="GenreToGame_PK">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:59:11 UTC</createdTime>
+<ownerDesignName>cdhaven</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA3953B0-5A64-0EC0-EC26-6C4A03F9E9E4"/>
+<colUsage columnID="40974852-870C-E4BB-5386-988E3DC59288"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="614FDA1F-DD38-185D-0C69-2561CCE9C818" name="GenreToGame_Genres_FK">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:59:11 UTC</createdTime>
+<generatorID>3C45B260-880E-54F1-F52C-D0279F2EC39B</generatorID>
+<ownerDesignName>cdhaven</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA3953B0-5A64-0EC0-EC26-6C4A03F9E9E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F134B247-752E-FF06-F8C6-387EE8F2B9BA" name="GenreToGame_Games_FK">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:59:11 UTC</createdTime>
+<generatorID>3C45B260-880E-54F1-F52C-D0279F2EC39B</generatorID>
+<ownerDesignName>cdhaven</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40974852-870C-E4BB-5386-988E3DC59288"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

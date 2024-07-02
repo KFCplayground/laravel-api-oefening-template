@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="cdhaven" id="584A722E-4DC1-CA61-94DB-3E2C4FB7824E" version="3.5">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:42:53 UTC</createdTime>
+<ownerDesignName>cdhaven</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>584A722E-4DC1-CA61-94DB-3E2C4FB7824E</designId>
+</OSDM_Design>

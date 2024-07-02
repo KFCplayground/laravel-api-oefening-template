@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="GenreToGame" directorySegmentName="seg_0" id="3C45B260-880E-54F1-F52C-D0279F2EC39B">
+<createdBy>Kuray</createdBy>
+<createdTime>2024-07-02 13:49:25 UTC</createdTime>
+<ownerDesignName>cdhaven</ownerDesignName>
+<engineerTo>
+<item key="CF9FCC6C-ECA8-DAE9-2857-0561FEEC3C9D" value="true"/>
+</engineerTo>
+<sourcePk>A156D8EA-6F00-1EC3-F9E1-3E6C420BBA70</sourcePk>
+<targetPk>C7DC890E-4856-7EFA-C483-EBC51CB8D3FD</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4404E692-F7A4-AB6A-E796-21E33D429A5F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5D1DB2FA-DBBB-683A-C481-4762915E0A4E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
